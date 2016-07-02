@@ -1,0 +1,10 @@
+---------------README-----
+
+openTNEF is a truly open-source TNEF decoding library, released under the
+BSD style licence in order to facilitate the involvement of corporate bodies
+without risk of licence backlash.
+
+OpenTNEF decodes the Microsoft TNEF encoded email attachments, often received
+as 'winmail.dat'.
+
+--------------------------

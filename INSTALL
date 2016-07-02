@@ -1,0 +1,22 @@
+-----------openTNEF-----INSTALL------------
+
+Installing/using openTNEF is relatively simple:
+
+	make
+	make install
+
+This will install a binary 'opentnef' into the /usr/local/bin
+directory ( if you don't want it to install there, simply
+omit the 'make install' step and copy the binary to your
+desired location.
+
+USING openTNEF:
+
+	The simplest way to use openTNEF is as follows:
+
+	opentnef -i winmail.dat
+
+	This will decode the winmail.dat file and place any attachments
+	into the local directory.
+
+-------------------------------------------------

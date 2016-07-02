@@ -1,0 +1,13 @@
+------------openTNEF------------------------
+
+21 September 2008:
+	Changed file_num in handle_props from a static var
+	to a global struct var in order to prevent cumulative
+	incrementation between multiple calls of the function
+	within the same process causing different output 
+	filenames despite the same input being supplied.
+
+
+10 Apr 2003:
+	PLD: Original Source code release from ripMIME project
+		as openTNEF.
